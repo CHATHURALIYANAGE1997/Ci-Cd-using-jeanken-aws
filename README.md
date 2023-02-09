@@ -12,3 +12,8 @@ On the location where Key Pair is saved, open terminal and type the following co
 ## 3rd step
 Ensure that your software packages are up to date.</br> 
 > sudo yum update –y
+
+## 4th step
+Add the Jenkins repo.</br>
+> sudo wget -O /etc/yum.repos.d/jenkins.repo \
+  https://pkg.jenkins.io/redhat-stable/jenkins.repo
