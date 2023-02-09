@@ -23,6 +23,21 @@ Import a key file from Jenkins-CI.</br>
 > sudo yum upgrade
 
 ## 6th step
-
+Install Java></br> 
+> sudo amazon-linux-extras install java-openjdk11 -y
 
 ## 7th step
+Install Jenkins.</br> 
+> sudo yum install jenkins -y
+
+## next step
+Enable the Jenkins service to start.</br> 
+> sudo systemctl enable jenkins
+
+## next step
+Start Jenkins as a service.</br> 
+> sudo systemctl start jenkins
+
+## next step
+Use the following command to display this password.</br> 
+> sudo cat /var/lib/jenkins/secrets/initialAdminPassword
