@@ -15,5 +15,4 @@ Ensure that your software packages are up to date.</br>
 
 ## 4th step
 Add the Jenkins repo.</br>
-> sudo wget -O /etc/yum.repos.d/jenkins.repo \
-  https://pkg.jenkins.io/redhat-stable/jenkins.repo
+> sudo wget -O /etc/yum.repos.d/jenkins.repo \https://pkg.jenkins.io/redhat-stable/jenkins.repo
