@@ -25,6 +25,7 @@ Import a key file from Jenkins-CI.</br>
 ## 6th step
 Install Java></br> 
 > sudo amazon-linux-extras install java-openjdk11 -y
+(Also you can use different virson in java accoding to your requirement but Jenkins requires Java 11 or 17 since Jenkins 2.357 and LTS 2.361. 1.)
 
 ## 7th step
 Install Jenkins.</br> 
