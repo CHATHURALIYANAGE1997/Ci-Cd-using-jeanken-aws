@@ -44,4 +44,4 @@ Use the following command to display this password.</br>
 > sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ## next step
-After recive user password you can run 'ec2-user@EC2-INSTANCE-PUBLIC-IP-ADDRESS:8080' in your browser. after you create a user you can create a new ci cd pipeline accoding to your requirement using different stages. And also you can create multiple users but can only assign the same global roles and privileges to them.
+After recive user password you can run 'ec2-user@EC2-INSTANCE-PUBLIC-IP-ADDRESS:8080' in your browser. after you create a user you can create a new ci cd pipeline accoding to your requirement using different stages. And also you can create multiple users but can only assign the same global roles and privileges to them using install new plugins.
